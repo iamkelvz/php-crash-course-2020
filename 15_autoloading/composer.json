@@ -1,0 +1,17 @@
+{
+    "name": "kelvz/15_autoloading",
+    "authors": [
+        {
+            "name": "Kelvin Ed",
+            "email": "kelvzsu@yahoo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    }
+}
